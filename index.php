@@ -100,7 +100,7 @@ $channel = "King_Network7";
 $log_channel = "@KingProxyLog";
 $server_1 = file_get_contents("http://proxy678.herokuapp.com//proxy-tel/api_1.php");
 $server_2 = file_get_contents("http://proxy678.herokuapp.com//proxy-tel/api_2.php");
-$server_3 = file_get_contents("https://proxy678.herokuapp.com//proxy-tel/api_3.php");
+$server_3 = file_get_contents("http://proxy678.herokuapp.com//proxy-tel/api_3.php");
 $inch = file_get_contents("http://api.telegram.org/bot" . API_KEY . "/getChatMember?chat_id=@$channel&user_id=" . $from_id); // ایدی کانال
 //====================Buttons======================//
 $btn_menu = json_encode([
